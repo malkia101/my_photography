@@ -65,3 +65,35 @@ nav ul li a:hover {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
 }
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(185, 154, 115);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
