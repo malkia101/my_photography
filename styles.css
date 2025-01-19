@@ -99,6 +99,10 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
+.photo-item:hover img {
+    transform: scale(1.1);
+}
+
 #bio {
     padding: 20px;
     background-color: rgba(250, 235, 215, 0.26);
@@ -131,10 +135,17 @@ nav ul li a:hover {
 form {
     width: 600px;
     margin: 0 auto;
-    background-color: rgba(250, 235, 215, 0.247);
+    background-color: rgba(250, 235, 215, 0.521);
+    padding: 2rem;
+    border-radius: .5rem;
 }
 
- #contact h2 {
+#contact {
+    padding: 20px;
+    background-color: rgba(247, 237, 223, 0.466);
+}
+
+ #contact  h2 {
     text-align: center;
  }
 
