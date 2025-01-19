@@ -9,10 +9,13 @@ body {
 }
 
 header {
-    background-image: url("./images/image-1.jpeg");
+        height: 80vh;
+        width: 100%;
+    background-image: url("./images/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
+    background-position: center;  
+    background-color: antiquewhite;
+    transition: background-color 300ms;
 }
 
