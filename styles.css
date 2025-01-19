@@ -15,8 +15,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
-    background-color: antiquewhite;
-    transition: background-color 300ms;
     padding: 2rem 5rem;
 }
 
@@ -26,7 +24,6 @@ nav {
     justify-content: space-between;
     margin: auto;
     align-items: center;
-    background-color: rgba(250, 235, 215, 0.062);
 }
 
 a {
@@ -40,4 +37,31 @@ li {
 
 nav ul li {
     margin-left: 1rem;
+}
+
+nav ul li a {
+        color: antiquewhite;
+        font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: rgb(216, 177, 130);
+    transition: .5sec ease-in-out;
+}
+
+.header-content {
+    color: antiquewhite;
+    position: relative;
+    top: 5rem;
+}
+
+#intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#intro p {
+    font-size: 1.2em;
+    font-style: italic;
 }
