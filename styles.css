@@ -173,7 +173,7 @@ form button {
 }
 
 form button:hover {
-    background-color: antiquewhite;
+    background-color: rgba(161, 134, 99, 0.623);
     color: black;
 }
 footer {
