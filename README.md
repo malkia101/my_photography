@@ -1,4 +1,4 @@
-# Photography Memories
+# Queen Photography
 
 ## Author
 - **Queen Njoki**
