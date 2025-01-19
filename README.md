@@ -30,7 +30,7 @@ To run this project locally on your machine, follow these steps:
  
 
 ## Live Site
-You can view the live website on GitHub Pages at the following link:
+You can view the live website on GitHub Pages at the following link: https://malkia101.github.io/my_photography/
 
 ## License
 This project is licensed under the MIT License, which allows anyone to freely use, modify, and distribute the project for personal or commercial purposes. The full license text is available in the LICENSE file of the project repository.
