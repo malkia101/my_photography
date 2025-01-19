@@ -58,13 +58,45 @@ nav ul li a:hover {
 #intro {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(250, 235, 215, 0.336);
 }
 
 #intro p {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#bio {
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.13);
+}
+
+#bio h2 {
+    text-align: center;
+}
+
+.bio-member {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(250, 235, 215, 0.068);
+}
+
+.bio-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio-member p {
+    flex: 1;
+    font-size: 1.1em;
+}
+
+
+
 
 form {
     width: 600px;
@@ -76,20 +108,21 @@ form label {
     margin: 10px 0 5px;
 }
 
-form input form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 
 form button {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: rgb(185, 154, 115);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
