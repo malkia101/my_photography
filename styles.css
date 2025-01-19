@@ -131,6 +131,7 @@ nav ul li a:hover {
 form {
     width: 600px;
     margin: 0 auto;
+    background-color: rgba(250, 235, 215, 0.247);
 }
 
  #contact h2 {
