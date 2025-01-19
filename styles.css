@@ -7,3 +7,12 @@
 body {
         font-family: 'Times New Roman', Times, serif;
 }
+
+header {
+    background-image: url("./images/image-1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
